@@ -1,0 +1,27 @@
+# DP 
+
+### State machine Dp problems identification
+
+Identifying whether a dynamic programming problem can be effectively solved using a state machine diagram involves recognizing certain characteristics of the problem. Here are some indications that a state machine approach might be suitable for solving a dynamic programming problem:
+
+1. **Discrete States**: The problem involves discrete states that can be clearly defined and represented. These states often correspond to the current situation or configuration of the problem.
+
+2. **Transitions Between States**: There are well-defined transitions between states based on certain actions or decisions. These transitions represent how the problem evolves or progresses from one state to another.
+
+3. **Overlapping Subproblems**: The problem exhibits overlapping subproblems, meaning that the same subproblems are encountered multiple times during the computation of the solution.
+
+4. **Optimal Substructure**: The problem has optimal substructure, meaning that the optimal solution to the overall problem can be constructed from optimal solutions to its subproblems.
+
+5. **State Space is Manageable**: The number of possible states and transitions between them is manageable, such that it doesn't result in an exponential explosion of states.
+
+6. **Constraint Satisfaction**: The problem involves satisfying certain constraints or conditions as the system evolves through different states.
+
+7. **Dynamic Programming Formulation**: The problem can be formulated in a way that lends itself well to dynamic programming, where the solution can be efficiently computed by storing and reusing solutions to overlapping subproblems.
+
+8. **Recursive Structure**: The problem can be naturally decomposed into smaller instances of itself, with each instance representing a state in the state machine.
+
+9. **Sequential Decision Making**: The problem involves making a sequence of decisions or actions, and the optimal sequence can be determined by considering the transitions between states.
+
+10. **Optimization Problem**: The problem involves optimizing some objective function or minimizing/maximizing a certain cost, and the state machine captures the sequence of decisions that lead to the optimal solution.
+
+When you observe one or more of these characteristics in a problem, it suggests that a state machine approach, along with dynamic programming techniques, could be a promising strategy for solving the problem efficiently. However, it's important to carefully analyze the problem and its requirements to determine the most appropriate approach.
