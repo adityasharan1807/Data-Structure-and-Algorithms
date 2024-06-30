@@ -30,7 +30,7 @@ Return Statement (Optional): Specifies the value that the function returns to th
 # Function Arguments
 Python functions can have different types of arguments:
 
-### Positional Arguments
+### 1.Positional Arguments
 These are passed to the function in the order defined. Example:
 
 ```
@@ -40,7 +40,7 @@ def add_numbers(a, b):
 result = add_numbers(5, 3)  # Output: 8
 ```
 
-### Keyword Arguments
+### 2.Keyword Arguments
 These are identified by their parameter names when calling the function. Example:
 
 ```
@@ -51,7 +51,8 @@ describe_person(age=30, name="Alice")  # Output: Alice is 30 years old.
 ```
 
 
-Default Arguments: These have a default value assigned, which is used if the caller doesn't provide a value for that argument. Example:
+### 3.Default Arguments
+These have a default value assigned, which is used if the caller doesn't provide a value for that argument. Example:
 
 ```
 def greet(name="Anonymous"):
@@ -61,7 +62,7 @@ greet()  # Output: Hello, Anonymous!
 greet("Alice")  # Output: Hello, Alice!
 ```
 
-### Variable-length Arguments:
+### 4.Variable-length Arguments:
  Functions can accept a variable number of arguments using *args (for positional arguments) and **kwargs (for keyword arguments). Example:
 ```
 def calculate_sum(*args):
